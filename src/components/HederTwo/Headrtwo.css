@@ -1,0 +1,41 @@
+.hedertwo {
+  background: #dd5858;
+  height: 118px;
+  display: flex;
+  margin-top: 10px;
+  padding: 10px 200px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.h-menu {
+  text-decoration: none;
+
+  background: #000;
+  width: 200px;
+  height: 60px;
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.h-menu a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 20px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+.h-nav a {
+  flex-direction: column;
+  gap: 10px;
+  font-size: 12px;
+  line-height: 59px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  display: inline-flex;
+  margin: 5px;
+}

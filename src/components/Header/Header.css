@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+.logo img {
+  width: 150;
+  height: 110px;
+}
+.h-search {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.h-search i {
+  color: red;
+}
+.h-search input {
+  width: 200px;
+  height: 40px;
+  color: #000;
+  border-radius: 10px;
+  background: rgba(149, 155, 167, 0.15);
+  border: none;
+  padding: 0px 50px 0 20px;
+  outline: none;
+}
+.h-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  outline: none;
+  gap: 10px;
+  font-weight: 500;
+}
+.h-button a {
+  text-decoration: none;
+
+  font-size: 15px;
+  color: #00a591;
+}
+.h-button a:hover {
+  color: red;
+}
+.h-imge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff6d72;
+  color: #fff;
+  border-radius: 20px;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+}

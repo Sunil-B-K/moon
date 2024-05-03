@@ -1,0 +1,10 @@
+.hero {
+  display: flex;
+  padding: 10px 200px;
+  margin-top: 80px;
+  min-height: 40vh;
+}
+.hero img {
+  height: auto;
+  width: 100%;
+}
