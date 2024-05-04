@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
 }
-.hero img {
+.second img {
   height: auto;
   width: 100%;
 }
@@ -16,4 +16,20 @@
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 768px) {
+  .second {
+    padding: 10px;
+    font-size: 1em;
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .second {
+    margin: 0;
+    padding: 10px;
+    font-size: 1em; /* Even smaller text for phones */
+    /* Adjust position to be more visible */
+  }
 }

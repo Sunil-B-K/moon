@@ -42,3 +42,13 @@
   display: inline-flex;
   margin: 5px;
 }
+@media (max-width: 480px) {
+  .hedertwo {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .hedertwo {
+    display: none;
+  }
+}

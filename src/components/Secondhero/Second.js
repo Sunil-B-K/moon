@@ -4,7 +4,9 @@ import hero from "../assert/img8.png";
 function Second() {
   return (
     <div className="second">
-      <img src={hero} alt="heroimage" />
+      <div className="sec">
+        <img src={hero} alt="heroimage" />
+      </div>
     </div>
   );
 }

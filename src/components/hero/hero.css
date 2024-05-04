@@ -7,4 +7,23 @@
 .hero img {
   height: auto;
   width: 100%;
+  max-width: 100%;
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  .hero {
+    padding: 10px 50px; /* Reduced padding */
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 480px) {
+  .hero {
+    padding: 10px 10px; /* Further reduced padding */
+    /* Reduced top margin */
+  }
+  .hero img {
+    height: auto;
+    width: 100%;
+  }
 }

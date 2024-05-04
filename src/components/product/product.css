@@ -4,4 +4,57 @@
   padding: 10px 200px;
   gap: 25px;
   height: 400px;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .product {
+    /* padding: 20px;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+    gap: 10px; /* Space between grid items */
+    height: auto;
+    padding: 0; /* Horizontally center the grid items */
+    align-items: center; /* Vertically center the grid items */
+  }
+}
+@media (max-width: 480px) {
+  .product {
+    /* padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+    gap: 10px; /* Space between grid items */
+    height: auto;
+    justify-content: center; /* Horizontally center the grid items */
+    align-items: center; /* Vertically center the grid items */
+
+    /* padding: 20px;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+  }
+}
+
+@media (max-width: 375px) {
+  .product {
+    padding: 10px;
+    display: flex;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+  }
 }

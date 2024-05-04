@@ -6,9 +6,14 @@
 
 .card {
   background: #ffffff; /* White background for the card */
+  border-radius: 8px; /* Rounded corners */
 
-  width: 200px; /* Fixed width */
+  width: 100%; /* Responsive width */
+  max-width: 300px; /* Maximum width */
   overflow: hidden; /* Ensures no content spills out */
+  margin: 10px; /* Margin around the card */
+  display: flex;
+  flex-direction: column;
 }
 
 .card img {
@@ -37,4 +42,35 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 15px; /* Horizontal padding */
+  margin-top: 5px;
+}
+
+/* @media (max-width: 768px) {
+  .card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+} */
+@media (max-width: 480px) {
+  /* .card {
+    display: inline-flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+  }
+  .card img {
+    display: block;
+  }
+  .pchild {
+    width: 300px;
+  } */
+}
+@media (max-width: 375px) {
+  .card {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
 }

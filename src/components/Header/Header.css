@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 200px;
+  box-sizing: border-box;
 }
 .logo img {
   width: 150;
@@ -68,4 +69,42 @@
   text-align: center;
   width: 123px;
   height: 44px;
+}
+@media (max-width: 480px) {
+  .h-search {
+    display: none;
+  }
+  .h-button a {
+    display: none;
+  }
+  .header {
+    justify-content: space-between;
+    overflow-x: hidden;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+}
+@media (max-width: 768px) {
+  .h-search {
+    display: none;
+  }
+  .h-button a {
+    display: none;
+  }
+  .header {
+    justify-content: space-between;
+    overflow-x: hidden;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
 }
