@@ -1,4 +1,7 @@
 import React from "react";
+
+import { Search } from "react-bootstrap-icons";
+import * as Icon from "react-bootstrap-icons";
 import logo from "../assert/logo.webp";
 import "./Header.css";
 function Header() {
@@ -9,12 +12,15 @@ function Header() {
       </div>
       <div className="h-search">
         <input type="text" placeholder="serch" />
-        <i class="bi bi-search"></i>
+        <div className=" ser">
+          {" "}
+          <Search size={20} />
+        </div>
       </div>
       <div className="h-button">
         <a href="#">Login/Reguister</a>
         <div className="h-imge">
-          <i class="bi bi-folder-plus"></i>
+          <Icon.FolderPlus size={20} />
           <p>post</p>
         </div>
       </div>

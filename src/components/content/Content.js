@@ -25,6 +25,9 @@ function Content() {
          You can directly contact our given number and get all the information on getting an enjoyable online sex service."
         par3="Browse through our category of paid girls offering live sexx to men like you. Join us now!"
       />
+      <div className="btn">
+        <p>Sponsored Ad</p>
+      </div>
     </div>
   );
 }

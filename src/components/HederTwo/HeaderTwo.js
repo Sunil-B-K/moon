@@ -1,12 +1,12 @@
 import "./Headrtwo.css";
 import React from "react";
+import { List } from "react-bootstrap-icons";
 function HeaderTwo() {
   return (
     <div className="hedertwo">
       <div className="h-menu">
-        <a href="#">
-          <i class="bi bi-list"></i>All Categories{" "}
-        </a>
+        <List size={25} />
+        <a href="#">All Categories</a>
       </div>
       <div className="h-nav">
         <a href="#">home</a>

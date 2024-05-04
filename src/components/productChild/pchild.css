@@ -1,0 +1,40 @@
+.pchild {
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.card {
+  background: #ffffff; /* White background for the card */
+
+  width: 200px; /* Fixed width */
+  overflow: hidden; /* Ensures no content spills out */
+}
+
+.card img {
+  width: 100%; /* Makes the image cover the card width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Removes bottom space/gap */
+}
+
+.pname {
+  padding: 10px 30px; /* Padding inside the name container */
+  background: #ff6d76; /* Light grey background */
+  text-align: center; /* Center the text */
+  /* Larger text size */
+  color: #d54b4f; /* Dark grey text color */
+  margin: 0;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.pname p {
+  margin: 0;
+  font-size: 1em;
+}
+.call,
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

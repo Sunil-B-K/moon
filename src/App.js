@@ -4,6 +4,8 @@ import Header from "./components/Header/Header";
 import HeaderTwo from "./components/HederTwo/HeaderTwo";
 import Hero from "./components/hero/Hero";
 import Content from "./components/content/Content";
+import Product from "./components/product/Product";
+import Second from "./components/Secondhero/Second";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <HeaderTwo />
       <Hero />
       <Content />
+      <Product />
+      <Second />
     </div>
   );
 }
